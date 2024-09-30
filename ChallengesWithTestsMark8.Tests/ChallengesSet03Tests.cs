@@ -25,13 +25,13 @@ namespace ChallengesWithTestsMark8.Tests
         public void ArrayContainsAFalse(bool[] values, bool expected)
         {
             // Arrange
-            ChallengesSet03 challenger = new ChallengesSet03();
+           ChallengesSet03 challenger = new ChallengesSet03();
 
             // Act
             bool actual = challenger.ArrayContainsAFalse(values);
 
             // Assert
-            Assert.Equal(expected, actual);
+           Assert.Equal(expected, actual);
         }
 
         [Theory]
@@ -182,6 +182,7 @@ namespace ChallengesWithTestsMark8.Tests
 
             // Act
             int actual = challenger.LastMinusFirst(numbers);
+            
 
             // Assert
             Assert.Equal(expected, actual);
